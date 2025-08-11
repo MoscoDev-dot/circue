@@ -72,7 +72,7 @@ const Clue = () => {
             wherever you are! Find out how Circue works.
           </p>
         </div>
-        <section className="img-group-container hidden lg:block relative h-[140vh]">
+        <section className="img-group-container hidden lg:block relative h-[190vh]">
           <div className="sticky top-0 h-screen overflow-hidden flex items-center">
             <ul className="img-group  flex gap-30 px-5">
               <Image
