@@ -19,10 +19,7 @@ const Clue = () => {
       label: "Share live locations with your friends",
     },
     { src: "/howItWorks6.webp", label: "Help people find there way around" },
-    {
-      src: "/howItWorks3.webp",
-      label: "Get translations to foreign languages",
-    },
+    
   ];
 
   useEffect(() => {
