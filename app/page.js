@@ -21,7 +21,7 @@ export default function Home() {
       <CircueClue/>
       <PerfectCircue/>
       <CircueReachOut/>
-      {/* <SmoothCursor /> */}
+       <SmoothCursor /> 
     </div>
   );
 }

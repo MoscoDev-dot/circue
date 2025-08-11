@@ -4,6 +4,8 @@ import Link from "next/link";
 import React from "react";
 import NavText from "./NavText";
 import { BorderBeam } from "./magicui/border-beam";
+import { FlipText } from "./magicui/flip-text";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 
 
@@ -13,13 +15,13 @@ const DownloadApp = () => {
       <div className="grid md:grid-cols-2 px-5 grid-cols-1 py-20 lg:py-20 md:py-10 gap-4">
         {/* first column */}
         <div className="text-center">
-          <p className="font-bold md:text-[40px] text-[20px] text-[#000000]">
-            Download the app now
-          </p>
-          <p className="text-neutral-500 font-semibold text-[20px] italic">
-            Experience the world like a local for your travels with the <br />{" "}
-            Circue app
-          </p>
+          <div className="font-bold md:text-[40px]  text-[20px] text-[#000000]">
+           <FlipText>Download the app now</FlipText> 
+          </div>
+          <div className="text-neutral-500 font-semibold  text-[20px] italic">
+          <TextAnimate animation="blurInUp" by="character" once> Experience the world like a local for your travels with the 
+            Circue app </TextAnimate> 
+          </div>
           <p className="text-neutral-700 pb-8 font-semibold text-[20px] italic">
             Donwload now.
           </p>
