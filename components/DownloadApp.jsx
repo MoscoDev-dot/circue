@@ -16,11 +16,11 @@ const DownloadApp = () => {
         {/* first column */}
         <div className="text-center">
           <div className="font-bold md:text-[40px]  text-[20px] text-[#000000]">
-           <FlipText>Download the app now</FlipText> 
+           Download the app now 
           </div>
           <div className="text-neutral-500 font-semibold  text-[20px] italic">
-          <TextAnimate animation="blurInUp" by="character" once> Experience the world like a local for your travels with the 
-            Circue app </TextAnimate> 
+           Experience the world like a local for your travels with the 
+            Circue app 
           </div>
           <p className="text-neutral-700 pb-8 font-semibold text-[20px] italic">
             Donwload now.
